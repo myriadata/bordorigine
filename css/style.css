@@ -1,0 +1,102 @@
+/*****************/
+/* NAVBAR OFFSET */
+/*****************/
+
+body {
+    padding-top: 50px;
+}
+
+/**************************/
+/* CUSTOMIZE THE CAROUSEL */
+/**************************/
+
+.carousel-control {
+    height: 200px;
+    margin-top: 150px;
+
+    font-size: 120px;
+    border: 0;
+    z-index: 10;
+    color: #ffffff;
+    opacity: 1;
+
+}
+
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+}
+
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,0)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0%);
+}
+
+.carousel .item {
+    height: 500px;
+}
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.carousel-caption {
+    padding-bottom: 180px;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+}
+.carousel-caption p {
+    font-size: 40px;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+/* Set the fixed height of the footer here */
+#footer {
+    background-color:#414141;
+    margin-top:50px;
+    padding-top:5px;
+    padding-bottom:20px;
+
+    color: #ffffff;
+}
+
+#copyright {
+    padding-top: 15px;
+}
+
+#footer a {
+    color:#efefef;
+}
+
+#footer h4 {
+    color: #aaaaaa;
+}
+
+/*******/
+/* MAP */
+/*******/
+
+#map-canvas {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+/*********/
+/* TABLE */
+/*********/
+table.borderless td,table.borderless th{
+    border: none !important;
+}
