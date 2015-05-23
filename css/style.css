@@ -6,6 +6,31 @@ body {
     padding-top: 50px;
 }
 
+/************/
+/* Overview */
+/************/
+
+div.overview {
+    margin: 3em
+}
+
+div.overview > div > h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.overview > div > img {
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    padding: 1em;
+}
+
+div.overview > div > p {
+    text-align: justify;
+}
+
 /**************************/
 /* CUSTOMIZE THE CAROUSEL */
 /**************************/
@@ -89,7 +114,18 @@ body {
 /*******/
 
 #map-canvas {
-    height: 500px;
+    min-height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.map-exhibition {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#map-exhibition {
+    min-height: 350px;
     margin: 0;
     padding: 0;
 }
