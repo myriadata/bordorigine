@@ -6,20 +6,37 @@ body {
     padding-top: 50px;
 }
 
-/************/
-/* Overview */
-/************/
+/**********/
+/* Global */
+/**********/
 
-div.overview {
-    margin: 3em
+strong {
+    color: #e21a2b;
 }
 
-div.overview > div > h4 {
+/****************/
+/* One page row */
+/****************/
+
+div.onepagerow {
+    margin: 3em;
+}
+
+div.onepagerow > div > h4 {
     text-align: center;
     text-transform: uppercase;
 }
 
-div.overview > div > img {
+div.onepagerow > div > h4.appendH4 {
+    padding-top: 2em
+}
+
+div.onepagerow > div > h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.itemLogo {
     display: block;
     margin: auto;
     height: 100px;
@@ -27,8 +44,18 @@ div.overview > div > img {
     padding: 1em;
 }
 
-div.overview > div > p {
+div.onepagerow > div > p {
     text-align: justify;
+}
+
+.onepagerow-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img.wide-fluid {
+    height: 500px;
+    min-width: 100%;
 }
 
 /**************************/
@@ -117,11 +144,6 @@ div.overview > div > p {
     min-height: 500px;
     margin: 0;
     padding: 0;
-}
-
-.map-exhibition {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 #map-exhibition {

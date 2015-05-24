@@ -23,7 +23,7 @@ function initializeMapContact() {
 
 function initializeMapExhibition() {
     var mapOptions = {
-        zoom: 16,
+        zoom: 14,
         draggable: false,
         userZoom: false,
         disableDoubleClickZoom: false,
@@ -42,7 +42,37 @@ function initializeMapExhibition() {
         mapOptions);
 
     var geocoder = new google.maps.Geocoder();
-    geocoder.geocode({ 'address': "2 bis rue Charles Lamoureux 33000 Bordeaux" }, function (results, status) {
+    geocoder.geocode({ 'address': "Place de la Bourse 33000 Bordeaux" }, function (results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location,
+            });
+        } else
+            alert("Problem with geolocation");
+    });
+    geocoder.geocode({ 'address': "Place de la comédie 33000 Bordeaux" }, function (results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location,
+            });
+        } else
+            alert("Problem with geolocation");
+    });
+    geocoder.geocode({ 'address': "59 Rue Saint-James 33000 Bordeaux" }, function (results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location,
+            });
+        } else
+            alert("Problem with geolocation");
+    });
+    geocoder.geocode({ 'address': "Place Pey Berland 33000 Bordeaux" }, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
             map.setCenter(results[0].geometry.location);
             var marker = new google.maps.Marker({
