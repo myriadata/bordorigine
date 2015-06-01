@@ -142,8 +142,8 @@ img.wide-fluid {
 
 /* Set the fixed height of the footer here */
 #footer {
-    background-color: #e31b2c;
-    background-image: linear-gradient(to right, #e31b2c, #e31b2c);
+    background-color: #7c7c7c;
+    background-image: linear-gradient(to right, #7c7c7c, #7c7c7c);
     border-width: 0;
 
     margin-top:50px;
