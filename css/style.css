@@ -7,16 +7,42 @@ body {
 }
 
 /**********/
+/* Navbar */
+/**********/
+
+.navbar-inverse {
+     background-color: #e31b2c;
+     background-image: linear-gradient(to right, #e31b2c, #e31b2c);
+     border-width: 0;
+ }
+
+.navbar-brand {
+    color : #fff !important;
+}
+
+.navbar-brand:hover {
+    color : #fff !important;
+}
+
+/**********/
 /* Global */
 /**********/
 
 strong {
     color: #e31b2c;
 }
-
 /****************/
 /* One page row */
 /****************/
+
+.container-bg-bis {
+    background-color: #f0f0f0;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
 
 div.onepagerow {
     margin: 3em;
@@ -63,8 +89,8 @@ img.wide-fluid {
 /**************************/
 
 .carousel-control {
-    height: 200px;
-    margin-top: 150px;
+    height: 160px;
+    margin-top: 120px;
 
     font-size: 120px;
     border: 0;
@@ -89,7 +115,7 @@ img.wide-fluid {
 }
 
 .carousel .item {
-    height: 500px;
+    height: 400px;
 }
 .carousel img {
     position: absolute;
@@ -116,12 +142,15 @@ img.wide-fluid {
 
 /* Set the fixed height of the footer here */
 #footer {
-    background-color:#414141;
+    background-color: #e31b2c;
+    background-image: linear-gradient(to right, #e31b2c, #e31b2c);
+    border-width: 0;
+
     margin-top:50px;
     padding-top:5px;
     padding-bottom:20px;
 
-    color: #ffffff;
+    color: #fff;
 }
 
 #copyright {
@@ -129,11 +158,11 @@ img.wide-fluid {
 }
 
 #footer a {
-    color:#efefef;
+    color:#aaa;
 }
 
 #footer h4 {
-    color: #aaaaaa;
+    color: #aaa;
 }
 
 /*******/
