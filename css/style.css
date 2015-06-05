@@ -11,7 +11,7 @@ body {
 /**********/
 
 .navbar-inverse {
-     background-color: #e31b2c;
+     background-color: #e31b2c; /* 227 - 27 - 44 */
      background-image: linear-gradient(to right, #e31b2c, #e31b2c);
      border-width: 0;
  }
@@ -126,7 +126,7 @@ img.wide-fluid {
 }
 
 .carousel-caption {
-    padding-bottom: 180px;
+    padding-bottom: 100px;
 }
 
 .carousel-caption h1 {
