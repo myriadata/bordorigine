@@ -181,6 +181,10 @@ img.wide-fluid {
     padding: 0;
 }
 
+small {
+  font-size: 10px;
+}
+
 /*********/
 /* TABLE */
 /*********/
