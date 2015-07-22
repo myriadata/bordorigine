@@ -24,6 +24,10 @@ body {
     color : #fff !important;
 }
 
+#navbar > ul > li > a {
+    color : #fff !important;
+}
+
 /**********/
 /* Global */
 /**********/
@@ -31,6 +35,7 @@ body {
 strong {
     color: #e31b2c;
 }
+
 /****************/
 /* One page row */
 /****************/

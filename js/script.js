@@ -24,7 +24,7 @@ function initializeMapContact() {
 function initializeMapExhibition() {
     var mapOptions = {
         zoom: 14,
-        draggable: false,
+        draggable: true,
         userZoom: false,
         disableDoubleClickZoom: false,
         disableDefaultUI: true,
@@ -42,15 +42,11 @@ function initializeMapExhibition() {
         mapOptions);
 
     var geocoder = new google.maps.Geocoder();
-    geoCode(map, geocoder, "Place Meynard 33000 Bordeaux");
-    geoCode(map, geocoder, "Place du parlement 33000 Bordeaux");
-    geoCode(map, geocoder, "3 rue Mably 33000 Bordeaux");
-    geoCode(map, geocoder, "Gare St Jean 33000 Bordeaux");
-    geoCode(map, geocoder, "23 Place du Palais 33000 Bordeaux");
-    geoCode(map, geocoder, "Place de la Bourse 33000 Bordeaux");
-    geoCode(map, geocoder, "Place de la comédie 33000 Bordeaux");
     geoCode(map, geocoder, "59 Rue Saint-James 33000 Bordeaux");
     geoCode(map, geocoder, "Place Pey Berland 33000 Bordeaux");
+    geoCode(map, geocoder, "Place du parlement 33000 Bordeaux");
+    geoCode(map, geocoder, "Place de la Bourse 33000 Bordeaux");
+    geoCode(map, geocoder, "Place de la comédie 33000 Bordeaux");
 }
 
 function geoCode(map, geocoder, address) {
@@ -60,7 +56,7 @@ function geoCode(map, geocoder, address) {
           var marker = new google.maps.Marker({
               map: map,
               position: results[0].geometry.location,
-              icon: "pictures/logo/icon-bordorigine-map.png"
+              icon: "pictures/logo/logo-bordorigine-map.png"
           });
       } else
           alert("Problem with geolocation");
