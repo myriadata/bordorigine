@@ -141,6 +141,24 @@ img.wide-fluid {
     font-size: 40px;
 }
 
+/*********/
+/* TABLE */
+/*********/
+table.borderless td,table.borderless th{
+    border: none !important;
+}
+
+/********/
+/* LOGO */
+/********/
+.logo-partenaire-platine {
+    height:15em;
+}
+
+.logo-partenaire-entreprise {
+    height:7em;
+}
+
 /**********/
 /* FOOTER */
 /**********/
@@ -196,11 +214,4 @@ small {
     min-height: 350px;
     margin: 0;
     padding: 0;
-}
-
-/*********/
-/* TABLE */
-/*********/
-table.borderless td,table.borderless th{
-    border: none !important;
 }
